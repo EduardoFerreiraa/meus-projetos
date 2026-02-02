@@ -31,6 +31,7 @@ nav > ul > li {
 }
 
 nav > ul > li a {
+    font-size: 15px;
     padding: 12px;
     color: white;
     text-decoration: none;
@@ -42,6 +43,7 @@ nav > ul > li a:hover {
 }
 
 .button-header {
+    font-size: 15px;
     color: #ff0051;
     padding: 11px 15px;
     margin: 9px;

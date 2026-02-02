@@ -67,4 +67,12 @@ nav > ul > li a:hover {
     background-color: #090909;
 }
 
+#img-main {
+    margin: 7rem 0rem 0rem 13rem; 
+    border-radius: 13px;
+    width: 350px;
+}
+
+
+
 

@@ -1,0 +1,31 @@
+body {
+    background-color: #090909;
+    padding: 0px;
+    margin: 0px;
+}
+
+#logo {
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+}
+
+nav > ul > li {
+    list-style: none;
+}
+
+nav > ul > li a {
+    color: white;
+    text-decoration: none;
+}
+

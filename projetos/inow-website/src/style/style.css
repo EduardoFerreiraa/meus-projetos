@@ -2,6 +2,7 @@ body {
     background-color: #090909;
     padding: 0px;
     margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #logo {
@@ -11,13 +12,15 @@ body {
 }
 
 .navbar-container {
+    margin: 5px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
-ul {
+ul.nav-links {
     display: flex;
+    gap: 40px;
 }
 
 nav > ul > li {
@@ -25,6 +28,23 @@ nav > ul > li {
 }
 
 nav > ul > li a {
+    color: white;
+    text-decoration: none;
+}
+
+.button-header {
+    padding: 8px;
+    border: 1px solid #ff0051;
+    border-radius: 10px;
+    color: #ff0051;
+    text-decoration: none;
+}
+
+.destaque {
+    background: #ff0051;
+    padding: 8px;
+    border: 1px solid #ff0051;
+    border-radius: 10px;
     color: white;
     text-decoration: none;
 }

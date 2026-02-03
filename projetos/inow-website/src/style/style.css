@@ -12,7 +12,7 @@ body {
     color: #ff0051;
 }
 
-.container {
+.header-container {
     padding: 0 50px;
     margin: 0 auto;
     display: flex;
@@ -67,12 +67,36 @@ nav > ul > li a:hover {
     background-color: #090909;
 }
 
-#img-main {
-    margin: 7rem 0rem 0rem 13rem; 
-    border-radius: 13px;
-    width: 350px;
+.main-container {
+    width: 1400px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    gap: 50px;
 }
 
+#main-titulo {
+    font-size: 3.5rem;
+    color: white;
+    width: 800px;
+    margin: 0;
+}
 
+#titulo-text {
+    margin-bottom: 5em;
+    width: 400px;
+    font-size: 17px;
+    color: rgb(182, 182, 182);
+}
 
+#actions-titulo {
+    position: relative;
+    bottom: 55px;
+}
 
+#main-robotica {
+    position: relative;
+    right: 150px;
+    border-radius: 13px;
+    width: 585px;
+}

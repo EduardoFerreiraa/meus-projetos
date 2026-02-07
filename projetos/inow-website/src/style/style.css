@@ -29,6 +29,21 @@ header {
     color: #ff0051;
 }
 
+header { 
+    background-color: #090909;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding: 17px;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+}
+
+
 ul.nav-links {
     display: flex;
     gap: 5px;
@@ -76,4 +91,36 @@ nav > ul > li a:hover {
     background-color: #090909;
 }
 
+.main-container {
+    width: 1400px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    gap: 50px;
+}
 
+#main-titulo {
+    font-size: 3.5rem;
+    color: white;
+    width: 800px;
+    margin: 0;
+}
+
+#titulo-text {
+    margin-bottom: 5em;
+    width: 400px;
+    font-size: 17px;
+    color: rgb(182, 182, 182);
+}
+
+#actions-titulo {
+    position: relative;
+    bottom: 55px;
+}
+
+#main-robotica {
+    position: relative;
+    right: 150px;
+    border-radius: 13px;
+    width: 585px;
+}

@@ -12,12 +12,18 @@ body {
     color: #ff0051;
 }
 
-.header-container {
-    padding: 0 50px;
-    margin: 0 auto;
+header { 
+    background-color: #090909;
     display: flex;
-    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding: 17px;
+    justify-content: space-around;
     align-items: center;
+    z-index: 1000;
 }
 
 ul.nav-links {

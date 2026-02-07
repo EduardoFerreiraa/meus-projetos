@@ -1,8 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: #090909;
-    padding: 0px;
-    margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+header { 
+    background-color: #090909;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    padding: 17px;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
 }
 
 #logo {
@@ -25,6 +42,7 @@ header {
     align-items: center;
     z-index: 1000;
 }
+
 
 ul.nav-links {
     display: flex;
